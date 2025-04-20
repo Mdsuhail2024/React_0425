@@ -31,7 +31,7 @@ const Card = ({company,  work, workinOn}) => {
             </h1>
             <p className="font-IBMPlexRegular text-left">
               A collection of 10,000 worldly Koalas each with their unique
-              skillsets. Their mission is to protect the world from evil.
+              skillsets. Their mission is to protect the world from evil!
             </p>
             <div className="hidden md:block py-5">
               <svg
