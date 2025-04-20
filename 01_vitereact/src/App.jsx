@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <User />
-      <div>Chai or React || Md Suhail</div>
+      <div>Chai or React || Md Suhail.</div>
       {user}
       <p>
         Create React App has been deprecated. that's why every developer use
