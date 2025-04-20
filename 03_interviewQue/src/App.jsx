@@ -22,7 +22,7 @@ function App() {
   }
   return (
     <>
-      <h1>Most Asked in Interview Question : {count}</h1>
+      <h1>Most Asked in Interview Questions : {count}</h1>
       <p>Curent count is : {count}</p>
       {/* <button onClick={() => setCount((prev) => prev + 1)}>Add</button> */}
       {/* <button onClick={() => setCount((prev) => prev - 1)}>Remove</button> */}
