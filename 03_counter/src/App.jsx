@@ -47,7 +47,7 @@ const App = () => {
           Remove count {counter}
         </button>
       </div>
-      <p className="mt-8 text-lg">Your current counter value is: {counter}</p>
+      <p className="mt-8 text-lg">Your current count value is: {counter}</p>
     </div>
   );
 };
