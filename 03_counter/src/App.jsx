@@ -30,8 +30,8 @@ const App = () => {
           onClick={addCount}
           className={`px-2 py-1 rounded-sm text-lg cursor-pointer ${
             counter < 30
-              ? "bg-green-700 hover:bg-green-800"
-              : "cursor-not-allowed bg-gray-600 hover:bg-gray-800"
+              ? "bg-green-700 hover:bg-green-800 "
+              : "cursor-not-allowed bg-gray-600 hover:bg-gray-700 text-gray-400"
           } `}
         >
           Add count {counter}
@@ -40,8 +40,8 @@ const App = () => {
           onClick={dltCount}
           className={`px-2 py-1 rounded-sm text-lg cursor-pointer ${
             counter > 0
-              ? "bg-red-700 cursor-not-allowed hover:bg-red-800"
-              : "cursor-not-allowed bg-gray-600 hover:bg-gray-800"
+              ? "bg-red-700 cursor-not-allowed hover:bg-red-800 "
+              : "cursor-not-allowed bg-gray-600 hover:bg-gray-800 text-gray-400"
           }`}
         >
           Remove count {counter}
