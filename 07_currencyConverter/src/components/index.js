@@ -1,4 +1,4 @@
 import InputBox from "./InputBox";
-import UseCurrencyInfo from "../CustomHooks/UseCurrencyInfo";
+import useCurrencyInfo from "../CustomHooks/UseCurrencyInfo";
 
-export {InputBox, UseCurrencyInfo}
+export {InputBox, useCurrencyInfo}

@@ -1,5 +1,3 @@
-import { useId } from "react";
-
 function InputBox({
   label,
   ammount,
